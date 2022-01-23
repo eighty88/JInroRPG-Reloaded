@@ -1,0 +1,8 @@
+name: JinroRPG
+version: '${project.version}'
+main: si.f5.eight.werewolf.JinroRPG
+api-version: 1.18
+softdepend: [ LunaChat ]
+authors: [ eight_y_88 ]
+description: This is a Minecraft Werewolf RPG in Spigot Server.
+website: https://github.com/eighty88
