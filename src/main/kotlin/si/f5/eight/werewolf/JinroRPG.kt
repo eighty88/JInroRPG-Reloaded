@@ -21,7 +21,7 @@ class JinroRPG : JavaPlugin() {
 
     }
 
-    fun registerEventListeners(vararg listeners: Listener) {
+    private fun registerEventListeners(vararg listeners: Listener) {
         listeners.forEach {
             Bukkit.getPluginManager().registerEvents(it, this)
         }
